@@ -4,7 +4,7 @@ import Stopwatch from './Stopwatch';
 function App() {
   return (
     <div className="App">
-      <h1>Stopwatch with Laps</h1>
+      <h1>Wlecome to my Clock Time laps!</h1>
       <Stopwatch />
     </div>
   );

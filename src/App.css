@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: wheat;
+}
+
+.stopwatch {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightblue;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.display {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+  font-family: monospace;
+}
+
+.controls button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: black;
+  border-radius: 5px;
+  background: navy;
+  color: white;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: blue;
+}
+
+.laps {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.laps li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
